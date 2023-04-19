@@ -17,8 +17,8 @@ public class ifElseSolution{
         int N = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        if(N%2 > 0){
-            System.out.println("Weird");
+        if(N%2 > 0){ //code segment I wrote to solve this code question problem
+            System.out.println("Weird"); 
         }else{
             if(N >= 2 && N<= 5){
                 System.out.println("Not Weird");
