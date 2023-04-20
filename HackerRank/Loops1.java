@@ -21,9 +21,9 @@ public class Loops1 {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(bufferedReader.readLine().trim());
         int result;
-        for(int i = 1; i <= 10; i++){
-           result = (N * i);
-           System.out.println(N+" x "+i+" = "+result);
+        for(int i = 1; i <= 10; i++){ //for loop cycles through 10 times
+           result = (N * i); //multiples user input by loop cycle 
+           System.out.println(N+" x "+i+" = "+result); //prints out on a new line, the times table for the user with whatever number they input
         }
        
         bufferedReader.close();
